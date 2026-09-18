@@ -12,12 +12,13 @@
 
 ## Current position
 
-No lessons have been completed. The course begins with **Russian lesson 001** and then alternates to **C lesson 001**.
+Russian lesson 001 is complete. The next scheduled run must create **C lesson 001**. No review or remediation lesson is currently scheduled.
 
-| Next run | Lesson identifier | Planned topic | Prerequisites |
+| Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
-| 1 | `russian-001-cyrillic-greetings` | Cyrillic orientation, basic pronunciation, greetings, and first recall practice | None |
-| 2 | `c-001-build-types-output` | C program structure, compiling, fundamental types, and output | None |
+| Completed | `russian-001-cyrillic-greetings` | Cyrillic orientation, basic pronunciation, greetings, and first recall practice | None |
+| Next | `c-001-build-types-output` | C program structure, compiling, fundamental types, and output | None |
+| Planned after next | `russian-002-sounds-and-introductions` | High-value Cyrillic sound patterns, stress awareness, and fuller introductions | Russian 001 |
 
 ## Long-range C milestones
 
@@ -33,4 +34,4 @@ No lessons have been completed. The course begins with **Russian lesson 001** an
 
 ## Review and adaptation record
 
-Add a dated entry after every lesson noting concepts reviewed, learner difficulties evident from project feedback, validation results, and the next planned topic.
+- **2026-09-18 — Russian 001 completed.** No earlier lesson was available for retrieval practice, so the lesson established a cover-and-recall routine using a phrase table. It introduced Cyrillic as a sound-based writing system, highlighted high-risk Latin look-alikes, and practised formal versus informal greetings plus a short self-introduction. No learner feedback was available. The next topic is C 001: program structure, compilation, fundamental types, and output.
