@@ -1,7 +1,7 @@
 # Russian 001 — Cyrillic Orientation and Greetings
 
-**Estimated study time:** 25–35 minutes  
-**Prerequisites:** None  
+**Estimated study time:** 25–35 minutes
+**Prerequisites:** None
 **Author:** Manus AI
 
 ## What you will be able to do
@@ -93,16 +93,16 @@ You do not need to analyze the grammar yet. Learn each question as a complete, u
 
 Read the following dialogue aloud twice. First use the pronunciation aid if needed. Then cover it and attempt the Cyrillic alone.
 
-> **А:** Здравствуйте! Как вас зовут?  
-> *Hello! What is your name?*  
+> **А:** Здравствуйте! Как вас зовут?
+> *Hello! What is your name?*
 >
-> **Б:** Здравствуйте! Меня зовут Анна. А вас?  
-> *Hello! My name is Anna. And you?*  
+> **Б:** Здравствуйте! Меня зовут Анна. А вас?
+> *Hello! My name is Anna. And you?*
 >
-> **А:** Меня зовут Мира. Очень приятно.  
-> *My name is Mira. Nice to meet you.*  
+> **А:** Меня зовут Мира. Очень приятно.
+> *My name is Mira. Nice to meet you.*
 >
-> **Б:** Очень приятно. До свидания!  
+> **Б:** Очень приятно. До свидания!
 > *Nice to meet you. Goodbye!*
 
 The name **Анна** is useful letter practice. Its letters are read approximately *Anna*: А = a, Н = n, Н = n, А = a. The shape **Н** is not English *H*.
@@ -151,8 +151,8 @@ If one item is difficult, repeat the phrase table and the dialogue later today. 
 
 A model polite introduction is:
 
-> Здравствуйте!  
-> Меня зовут Мира.  
+> Здравствуйте!
+> Меня зовут Мира.
 > До свидания!
 
 ## Next lesson
