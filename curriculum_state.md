@@ -12,13 +12,14 @@
 
 ## Current position
 
-Russian lesson 001 is complete. The next scheduled run must create **C lesson 001**. No review or remediation lesson is currently scheduled.
+C lesson 001 is complete. The next scheduled run must create **Russian lesson 002**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
 | Completed | `russian-001-cyrillic-greetings` | Cyrillic orientation, basic pronunciation, greetings, and first recall practice | None |
-| Next | `c-001-build-types-output` | C program structure, compiling, fundamental types, and output | None |
-| Planned after next | `russian-002-sounds-and-introductions` | High-value Cyrillic sound patterns, stress awareness, and fuller introductions | Russian 001 |
+| Completed | `c-001-build-types-output` | C program structure, compiling, fundamental types, and output | None |
+| Next | `russian-002-sounds-and-introductions` | High-value Cyrillic sound patterns, stress awareness, and fuller introductions | Russian 001 |
+| Planned after next | `c-002-control-flow-and-simple-input` | Expressions, decisions, loops, and a first checked input boundary | C 001 |
 
 ## Long-range C milestones
 
@@ -35,3 +36,4 @@ Russian lesson 001 is complete. The next scheduled run must create **C lesson 00
 ## Review and adaptation record
 
 - **2026-09-18 — Russian 001 completed.** No earlier lesson was available for retrieval practice, so the lesson established a cover-and-recall routine using a phrase table. It introduced Cyrillic as a sound-based writing system, highlighted high-risk Latin look-alikes, and practised formal versus informal greetings plus a short self-introduction. No learner feedback was available. The next topic is C 001: program structure, compilation, fundamental types, and output.
+- **2026-09-19 — C 001 completed.** The lesson briefly recalled the preceding Russian material, then introduced the hosted `main` function, `#include <stdio.h>`, strict C17 compilation, `char`, `int`, `double`, `void`, and type-matched `printf` conversions. The companion program checks output errors, and its expected output was verified by a deterministic shell test plus AddressSanitizer and UndefinedBehaviorSanitizer builds. No learner feedback was available. The next topic is Russian 002: high-value Cyrillic sound patterns, stress awareness, and fuller introductions.
