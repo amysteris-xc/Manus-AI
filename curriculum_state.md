@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 003 is complete. The next scheduled run must create **Russian lesson 004**. No review or remediation lesson is currently scheduled.
+Russian lesson 004 is complete. The next scheduled run must create **C lesson 004**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -22,8 +22,9 @@ C lesson 003 is complete. The next scheduled run must create **Russian lesson 00
 | Completed | `c-002-control-flow-and-simple-input` | Expressions, decisions, loops, and a first checked input boundary | C 001 |
 | Completed | `russian-003-gender-and-everyday-nouns` | Grammatical gender, basic noun patterns, and familiar objects | Russian 001–002 |
 | Completed | `c-003-functions-and-error-returns` | Function boundaries, parameters, return values, and explicit error propagation | C 001–002 |
-| Next | `russian-004-adjectives-and-simple-descriptions` | Gender agreement in common adjectives and concise object descriptions | Russian 001–003 |
-| Planned after next | `c-004-arrays-strings-and-bounds` | Fixed-size arrays, C string termination, length limits, and index validation | C 001–003 |
+| Completed | `russian-004-adjectives-and-simple-descriptions` | Gender agreement in common adjectives and concise object descriptions | Russian 001–003 |
+| Next | `c-004-arrays-strings-and-bounds` | Fixed-size arrays, C string termination, length limits, and index validation | C 001–003 |
+| Planned after next | `russian-005-present-tense-verbs-and-routines` | High-frequency present-tense verbs and short daily-routine statements | Russian 001–004 |
 
 ## Long-range C milestones
 
@@ -45,3 +46,4 @@ C lesson 003 is complete. The next scheduled run must create **Russian lesson 00
 - **2026-09-20 — C 002 completed.** The lesson retrieved core C output and Russian introduction material, then introduced arithmetic and comparison expressions, `if`/`else`, bounded `for` loops, and a checked line-input boundary using `fgets`, `strtol`, `errno`, an end pointer, trailing-text checks, and a pre-cast application range. Its companion program rejects missing, malformed, out-of-range, and overlong input. Strict compilation, exact-output tests, long-line rejection, and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 003: grammatical gender, basic noun patterns, and familiar objects.
 - **2026-09-20 — Russian 003 completed.** The lesson retrieved earlier Russian and C material, introduced the three grammatical genders through dictionary-form endings, highlighted soft-sign ambiguity and common exceptions, and paired everyday objects with `он`, `она`, and `оно`. It included a short object-identification dialogue and a gender-package recall routine. No learner feedback was available. The next topic is C 003: function boundaries, parameters, return values, and explicit error propagation.
 - **2026-09-21 — C 003 completed.** The lesson retrieved C 002’s checked parsing pattern and Russian 003’s neuter pronoun, then introduced focused function interfaces, named status codes, output parameters, pointer-null checks, precondition checks for multiplication, and explicit error propagation to `main`. The companion program validates two command-line values, checks every helper status, and prints a session plan only on full success. Strict compilation, deterministic boundary-case tests, and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 004: gender agreement in common adjectives and concise object descriptions.
+- **2026-09-21 — Russian 004 completed.** The lesson retrieved noun gender and C status-check concepts, then introduced singular nominative adjective agreement through `новый — новая — новое` and `маленький — маленькая — маленькое`. It paired gender packages with simple object questions and descriptions, plus spaced recall. No learner feedback was available. The next topic is C 004: fixed-size arrays, C string termination, length limits, and index validation.
