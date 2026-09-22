@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 004 is complete. The next scheduled run must create **Russian lesson 005**. No review or remediation lesson is currently scheduled.
+Russian lesson 005 is complete. The next scheduled run must create **C lesson 005**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -24,8 +24,9 @@ C lesson 004 is complete. The next scheduled run must create **Russian lesson 00
 | Completed | `c-003-functions-and-error-returns` | Function boundaries, parameters, return values, and explicit error propagation | C 001–002 |
 | Completed | `russian-004-adjectives-and-simple-descriptions` | Gender agreement in common adjectives and concise object descriptions | Russian 001–003 |
 | Completed | `c-004-arrays-strings-and-bounds` | Fixed-size arrays, C string termination, length limits, and index validation | C 001–003 |
-| Next | `russian-005-present-tense-verbs-and-routines` | High-frequency present-tense verbs and short daily-routine statements | Russian 001–004 |
-| Planned after next | `c-005-array-parameters-and-bounded-iteration` | Array parameters, pointer relationships, `size_t` counts, and bounded traversal | C 001–004 |
+| Completed | `russian-005-present-tense-verbs-and-routines` | High-frequency present-tense verbs and short daily-routine statements | Russian 001–004 |
+| Next | `c-005-array-parameters-and-bounded-iteration` | Array parameters, pointer relationships, `size_t` counts, and bounded traversal | C 001–004 |
+| Planned after next | `russian-006-places-and-location-phrases` | Common places, `где?` questions, and basic location phrases | Russian 001–005 |
 
 ## Long-range C milestones
 
@@ -49,3 +50,4 @@ C lesson 004 is complete. The next scheduled run must create **Russian lesson 00
 - **2026-09-21 — C 003 completed.** The lesson retrieved C 002’s checked parsing pattern and Russian 003’s neuter pronoun, then introduced focused function interfaces, named status codes, output parameters, pointer-null checks, precondition checks for multiplication, and explicit error propagation to `main`. The companion program validates two command-line values, checks every helper status, and prints a session plan only on full success. Strict compilation, deterministic boundary-case tests, and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 004: gender agreement in common adjectives and concise object descriptions.
 - **2026-09-21 — Russian 004 completed.** The lesson retrieved noun gender and C status-check concepts, then introduced singular nominative adjective agreement through `новый — новая — новое` and `маленький — маленькая — маленькое`. It paired gender packages with simple object questions and descriptions, plus spaced recall. No learner feedback was available. The next topic is C 004: fixed-size arrays, C string termination, length limits, and index validation.
 - **2026-09-22 — C 004 completed.** The lesson retrieved bounded parsing, output-parameter, and Russian adjective concepts, then distinguished fixed-size arrays from null-terminated C strings. It introduced capacity versus logical string length, `size_t` counts, newline/terminator space, oversized-line rejection, and index validation against `strlen` rather than array capacity. The companion program rejects empty and oversized labels plus malformed, negative, and out-of-range indexes. Strict compilation, deterministic boundary-case tests, and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 005: high-frequency present-tense verbs and short daily-routine statements.
+- **2026-09-22 — Russian 005 completed.** The lesson retrieved gender agreement and C string-bound concepts, then introduced the infinitives and present-tense forms of `работать`, `читать`, and `учиться`. It added three routine time words, informal and polite question models, and a short three-part routine for spoken production. No learner feedback was available. The next topic is C 005: array parameters, pointer relationships, `size_t` counts, and bounded traversal.
