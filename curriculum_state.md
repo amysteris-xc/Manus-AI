@@ -12,7 +12,7 @@
 
 ## Current position
 
-Russian lesson 005 is complete. The next scheduled run must create **C lesson 005**. No review or remediation lesson is currently scheduled.
+C lesson 005 is complete. The next scheduled run must create **Russian lesson 006**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -25,8 +25,9 @@ Russian lesson 005 is complete. The next scheduled run must create **C lesson 00
 | Completed | `russian-004-adjectives-and-simple-descriptions` | Gender agreement in common adjectives and concise object descriptions | Russian 001–003 |
 | Completed | `c-004-arrays-strings-and-bounds` | Fixed-size arrays, C string termination, length limits, and index validation | C 001–003 |
 | Completed | `russian-005-present-tense-verbs-and-routines` | High-frequency present-tense verbs and short daily-routine statements | Russian 001–004 |
-| Next | `c-005-array-parameters-and-bounded-iteration` | Array parameters, pointer relationships, `size_t` counts, and bounded traversal | C 001–004 |
-| Planned after next | `russian-006-places-and-location-phrases` | Common places, `где?` questions, and basic location phrases | Russian 001–005 |
+| Completed | `c-005-array-parameters-and-bounded-iteration` | Array parameters, pointer relationships, `size_t` counts, and bounded traversal | C 001–004 |
+| Next | `russian-006-places-and-location-phrases` | Common places, `где?` questions, and basic location phrases | Russian 001–005 |
+| Planned after next | `c-006-unsigned-integers-and-byte-arrays` | `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal | C 001–005 |
 
 ## Long-range C milestones
 
@@ -51,3 +52,4 @@ Russian lesson 005 is complete. The next scheduled run must create **C lesson 00
 - **2026-09-21 — Russian 004 completed.** The lesson retrieved noun gender and C status-check concepts, then introduced singular nominative adjective agreement through `новый — новая — новое` and `маленький — маленькая — маленькое`. It paired gender packages with simple object questions and descriptions, plus spaced recall. No learner feedback was available. The next topic is C 004: fixed-size arrays, C string termination, length limits, and index validation.
 - **2026-09-22 — C 004 completed.** The lesson retrieved bounded parsing, output-parameter, and Russian adjective concepts, then distinguished fixed-size arrays from null-terminated C strings. It introduced capacity versus logical string length, `size_t` counts, newline/terminator space, oversized-line rejection, and index validation against `strlen` rather than array capacity. The companion program rejects empty and oversized labels plus malformed, negative, and out-of-range indexes. Strict compilation, deterministic boundary-case tests, and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 005: high-frequency present-tense verbs and short daily-routine statements.
 - **2026-09-22 — Russian 005 completed.** The lesson retrieved gender agreement and C string-bound concepts, then introduced the infinitives and present-tense forms of `работать`, `читать`, and `учиться`. It added three routine time words, informal and polite question models, and a short three-part routine for spoken production. No learner feedback was available. The next topic is C 005: array parameters, pointer relationships, `size_t` counts, and bounded traversal.
+- **2026-09-23 — C 005 completed.** The lesson retrieved array and string boundary concepts plus a Russian routine form, then introduced the pointer-plus-count array-interface contract, array-parameter adjustment, `size_t` counts, and forward bounded traversal. The companion program validates pointers, counts, element values, and each total before adding. Its deterministic report test and helper-contract harness cover valid, null-pointer, zero-count, negative-value, and over-limit-value paths; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 006: common places, `где?` questions, and basic location phrases.
