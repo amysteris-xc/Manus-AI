@@ -12,7 +12,7 @@
 
 ## Current position
 
-Russian lesson 006 is complete. The next scheduled run must create **C lesson 006**. No review or remediation lesson is currently scheduled.
+C lesson 006 is complete. The next scheduled run must create **Russian lesson 007**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -27,8 +27,9 @@ Russian lesson 006 is complete. The next scheduled run must create **C lesson 00
 | Completed | `russian-005-present-tense-verbs-and-routines` | High-frequency present-tense verbs and short daily-routine statements | Russian 001–004 |
 | Completed | `c-005-array-parameters-and-bounded-iteration` | Array parameters, pointer relationships, `size_t` counts, and bounded traversal | C 001–004 |
 | Completed | `russian-006-places-and-location-phrases` | Common places, `где?` questions, and basic location phrases | Russian 001–005 |
-| Next | `c-006-unsigned-integers-and-byte-arrays` | `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal | C 001–005 |
-| Planned after next | `russian-007-questions-and-basic-negation` | Yes/no questions, `не`, and concise responses about routines and locations | Russian 001–006 |
+| Completed | `c-006-unsigned-integers-and-byte-arrays` | `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal | C 001–005 |
+| Next | `russian-007-questions-and-basic-negation` | Yes/no questions, `не`, and concise responses about routines and locations | Russian 001–006 |
+| Planned after next | `c-007-bitwise-operations-and-uint32-t` | `uint32_t`, masks, shifts, and bounded word-oriented data handling | C 001–006 |
 
 ## Long-range C milestones
 
@@ -55,3 +56,4 @@ Russian lesson 006 is complete. The next scheduled run must create **C lesson 00
 - **2026-09-22 — Russian 005 completed.** The lesson retrieved gender agreement and C string-bound concepts, then introduced the infinitives and present-tense forms of `работать`, `читать`, and `учиться`. It added three routine time words, informal and polite question models, and a short three-part routine for spoken production. No learner feedback was available. The next topic is C 005: array parameters, pointer relationships, `size_t` counts, and bounded traversal.
 - **2026-09-23 — C 005 completed.** The lesson retrieved array and string boundary concepts plus a Russian routine form, then introduced the pointer-plus-count array-interface contract, array-parameter adjustment, `size_t` counts, and forward bounded traversal. The companion program validates pointers, counts, element values, and each total before adding. Its deterministic report test and helper-contract harness cover valid, null-pointer, zero-count, negative-value, and over-limit-value paths; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 006: common places, `где?` questions, and basic location phrases.
 - **2026-09-23 — Russian 006 completed.** The lesson retrieved present-tense routines and C array-interface concepts, then introduced `Где?` location questions and the memorized location packages `дома`, `в школе`, `в парке`, `в библиотеке`, and `на работе`. It combined those packages with existing routine verbs and set aside motion/destination patterns for a later lesson. No learner feedback was available. The next topic is C 006: `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal.
+- **2026-09-24 — C 006 completed.** The lesson retrieved pointer-plus-count and C-string boundary concepts plus a Russian location phrase, then introduced exact-width `uint8_t` data, explicit byte-buffer lengths, hexadecimal output with `PRIX8`, and bounded byte traversal that preserves embedded zero-valued bytes. Its deterministic report test and helper-contract harness cover valid buffers, null buffers, zero-length input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 007: yes/no questions, `не`, and concise responses about routines and locations.
