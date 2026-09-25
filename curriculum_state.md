@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 101 is complete. The next scheduled run must create **Russian lesson 102**. No review or remediation lesson is currently scheduled.
+C lesson 201 is complete. **Do not create lesson 202 automatically.** The scheduled task must inspect the course state and report that the prepared curriculum is complete until an explicit extension or remediation request is recorded.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -218,6 +218,206 @@ C lesson 101 is complete. The next scheduled run must create **Russian lesson 10
 | Completed | `c-100-production-crypto-library-integration-notes` | Production Crypto Library Integration Notes | C 001–099 |
 | Completed | `russian-101-capstone-dialogue-and-study-log` | Capstone Dialogue and Study Log | Russian 001–100 |
 | Completed | `c-101-byte-protocol-validation-capstone` | Byte Protocol Validation Capstone | C 001–100 |
+| Completed | `russian-102-reflexive-verbs-for-daily-actions` | Reflexive Verbs for Daily Actions | Russian 001–101 |
+| Completed | `c-102-cursor-and-span-api-separation` | Cursor and Span API Separation | C 001–101 |
+| Completed | `russian-103-reciprocal-actions-and-each-other` | Reciprocal Actions and `друг друга` | Russian 001–102 |
+| Completed | `c-103-explicit-endianness-test-vectors` | Explicit Endianness Test Vectors | C 001–102 |
+| Completed | `russian-104-present-tense-conjugation-review` | Present-Tense Conjugation Review | Russian 001–103 |
+| Completed | `c-104-checked-integer-narrowing` | Checked Integer Narrowing | C 001–103 |
+| Completed | `russian-105-animate-accusative-objects` | Animate Accusative Objects | Russian 001–104 |
+| Completed | `c-105-signed-to-unsigned-conversions` | Signed-to-Unsigned Conversion Boundaries | C 001–104 |
+| Completed | `russian-106-genitive-after-negation` | Genitive Patterns after Negation | Russian 001–105 |
+| Completed | `c-106-boolean-and-status-contracts` | Boolean and Status Contracts | C 001–105 |
+| Completed | `russian-107-quantities-and-genitive-phrases` | Quantities and Genitive Phrases | Russian 001–106 |
+| Completed | `c-107-bounded-growth-policy` | Bounded Growth Policy | C 001–106 |
+| Completed | `russian-108-dative-age-and-impersonal-needs` | Dative for Age and Impersonal Needs | Russian 001–107 |
+| Completed | `c-108-object-representation-vs-wire-format` | Object Representation versus Wire Format | C 001–107 |
+| Completed | `russian-109-dative-liking-and-help` | Dative for Liking and Help | Russian 001–108 |
+| Completed | `c-109-portable-integer-formatting` | Portable Integer Formatting | C 001–108 |
+| Completed | `russian-110-instrumental-for-means-and-roles` | Instrumental for Means and Roles | Russian 001–109 |
+| Completed | `c-110-aliasing-and-memcpy-boundary` | Aliasing and the `memcpy` Boundary | C 001–109 |
+| Completed | `russian-111-prepositional-places-and-topics-review` | Prepositional Places and Topics Review | Russian 001–110 |
+| Completed | `c-111-fixed-record-comparator-contract` | Fixed Record Comparator Contract | C 001–110 |
+| Completed | `russian-112-case-choice-in-everyday-scenes` | Case Choice in Everyday Scenes | Russian 001–111 |
+| Completed | `c-112-sorted-index-validation` | Sorted Index Validation | C 001–111 |
+| Completed | `russian-113-aspect-pairs-and-completion` | Aspect Pairs and Completion | Russian 001–112 |
+| Completed | `c-113-sequence-gap-detection` | Sequence Gap Detection | C 001–112 |
+| Completed | `russian-114-aspect-with-time-adverbs` | Aspect with Time Adverbs | Russian 001–113 |
+| Completed | `c-114-bounded-message-assembly` | Bounded Message Assembly | C 001–113 |
+| Completed | `russian-115-polite-imperatives-and-safety` | Polite Imperatives and Safe Instructions | Russian 001–114 |
+| Completed | `c-115-trailing-data-policy` | Trailing Data Policy | C 001–114 |
+| Completed | `russian-116-negative-imperatives-and-caution` | Negative Imperatives and Caution | Russian 001–115 |
+| Completed | `c-116-version-migration-dispatch` | Version Migration Dispatch | C 001–115 |
+| Completed | `russian-117-motion-verbs-for-round-trips` | Motion Verbs for Round Trips | Russian 001–116 |
+| Completed | `c-117-unknown-field-skipping` | Unknown Field Skipping | C 001–116 |
+| Completed | `russian-118-motion-prefixes-and-return` | Motion Prefixes and Return | Russian 001–117 |
+| Completed | `c-118-duplicate-field-rejection` | Duplicate Field Rejection | C 001–117 |
+| Completed | `russian-119-routes-directions-and-transport` | Routes, Directions, and Transport | Russian 001–118 |
+| Completed | `c-119-required-field-completeness` | Required Field Completeness | C 001–118 |
+| Completed | `russian-120-motion-and-aspect-review` | Motion and Aspect Review | Russian 001–119 |
+| Completed | `c-120-canonical-byte-serialization` | Canonical Byte Serialization | C 001–119 |
+| Completed | `russian-121-reported-speech-basics` | Reported Speech Basics | Russian 001–120 |
+| Completed | `c-121-overflow-safe-binary-search` | Overflow-Safe Binary Search | C 001–120 |
+| Completed | `russian-122-past-narration-sequence` | Past Narration and Sequence | Russian 001–121 |
+| Completed | `c-122-fixed-capacity-priority-selection` | Fixed-Capacity Priority Selection | C 001–121 |
+| Completed | `russian-123-describing-people-with-clauses` | Describing People with Simple Clauses | Russian 001–122 |
+| Completed | `c-123-iteration-count-invariants` | Iteration Count Invariants | C 001–122 |
+| Completed | `russian-124-relative-pronoun-agreement` | Relative Pronoun Agreement | Russian 001–123 |
+| Completed | `c-124-ownership-transfer-contracts` | Ownership Transfer Contracts | C 001–123 |
+| Completed | `russian-125-indirect-questions-and-uncertainty` | Indirect Questions and Uncertainty | Russian 001–124 |
+| Completed | `c-125-opaque-handle-interface-boundaries` | Opaque Handle Interface Boundaries | C 001–124 |
+| Completed | `russian-126-neutral-word-order-and-focus` | Neutral Word Order and Focus | Russian 001–125 |
+| Completed | `c-126-callback-error-propagation` | Callback Error Propagation | C 001–125 |
+| Completed | `russian-127-connectives-for-reasons-and-contrast` | Connectives for Reasons and Contrast | Russian 001–126 |
+| Completed | `c-127-output-parameter-stability` | Output Parameter Stability | C 001–126 |
+| Completed | `russian-128-expressing-purpose` | Expressing Purpose | Russian 001–127 |
+| Completed | `c-128-cleanup-ladder-pattern` | Cleanup Ladder Pattern | C 001–127 |
+| Completed | `russian-129-comparisons-and-evaluations` | Comparisons and Careful Evaluations | Russian 001–128 |
+| Completed | `c-129-feature-flag-format-gating` | Feature Flag Format Gating | C 001–128 |
+| Completed | `russian-130-approximate-quantities` | Approximate Quantities | Russian 001–129 |
+| Completed | `c-130-table-driven-test-cases` | Table-Driven Test Cases | C 001–129 |
+| Completed | `russian-131-dates-deadlines-and-plans` | Dates, Deadlines, and Plans | Russian 001–130 |
+| Completed | `c-131-error-code-coverage` | Error Code Coverage | C 001–130 |
+| Completed | `russian-132-appointments-and-rescheduling` | Appointments and Rescheduling | Russian 001–131 |
+| Completed | `c-132-component-contract-documentation` | Component Contract Documentation | C 001–131 |
+| Completed | `russian-133-letters-and-email-register` | Letters and Email Register | Russian 001–132 |
+| Completed | `c-133-span-interface-consistency` | Span Interface Consistency | C 001–132 |
+| Completed | `russian-134-phone-clarification-and-repair` | Phone Clarification and Repair | Russian 001–133 |
+| Completed | `c-134-slice-advance-validation` | Slice Advance Validation | C 001–133 |
+| Completed | `russian-135-workplace-status-updates` | Workplace Status Updates | Russian 001–134 |
+| Completed | `c-135-nested-subrange-checks` | Nested Subrange Checks | C 001–134 |
+| Completed | `russian-136-professional-requests` | Professional Requests | Russian 001–135 |
+| Completed | `c-136-delimiter-without-c-string-assumption` | Delimiter Search without a C-String Assumption | C 001–135 |
+| Completed | `russian-137-constructive-feedback` | Constructive Feedback | Russian 001–136 |
+| Completed | `c-137-escaped-text-byte-parser` | Escaped Text Byte Parser | C 001–136 |
+| Completed | `russian-138-opinions-with-evidence-review` | Opinions with Evidence Review | Russian 001–137 |
+| Completed | `c-138-hex-encode-round-trip` | Hex Encoding Round Trip | C 001–137 |
+| Completed | `russian-139-agreeing-and-disagreeing-politely` | Agreeing and Disagreeing Politely | Russian 001–138 |
+| Completed | `c-139-strict-hex-decode-round-trip` | Strict Hex Decoding Round Trip | C 001–138 |
+| Completed | `russian-140-attribution-and-source-language` | Attribution and Source Language | Russian 001–139 |
+| Completed | `c-140-base64-boundary-review` | Base64 Boundary Review | C 001–139 |
+| Completed | `russian-141-summarizing-short-texts` | Summarizing Short Texts | Russian 001–140 |
+| Completed | `c-141-utf8-structural-byte-validation` | UTF-8 Structural Byte Validation | C 001–140 |
+| Completed | `russian-142-describing-processes` | Describing a Simple Process | Russian 001–141 |
+| Completed | `c-142-checked-output-encoding-length` | Checked Output Encoding Length | C 001–141 |
+| Completed | `russian-143-instructions-and-sequences` | Instructions and Sequences | Russian 001–142 |
+| Completed | `c-143-chunked-encoder-state` | Chunked Encoder State | C 001–142 |
+| Completed | `russian-144-problem-and-solution-language` | Problem and Solution Language | Russian 001–143 |
+| Completed | `c-144-streaming-decoder-state` | Streaming Decoder State | C 001–143 |
+| Completed | `russian-145-conditional-planning` | Conditional Planning | Russian 001–144 |
+| Completed | `c-145-checked-append-only-journal` | Checked Append-Only Journal | C 001–144 |
+| Completed | `russian-146-hypothetical-advice` | Hypothetical Advice | Russian 001–145 |
+| Completed | `c-146-journal-recovery-boundaries` | Journal Recovery Boundaries | C 001–145 |
+| Completed | `russian-147-goals-and-progress-reflection` | Goals and Progress Reflection | Russian 001–146 |
+| Completed | `c-147-atomic-replace-design` | Atomic Replace Design | C 001–146 |
+| Completed | `russian-148-learning-strategy-discussion` | Learning Strategy Discussion | Russian 001–147 |
+| Completed | `c-148-temporary-file-cleanup` | Temporary File Cleanup | C 001–147 |
+| Completed | `russian-149-cultural-events-and-invitations` | Cultural Events and Invitations | Russian 001–148 |
+| Completed | `c-149-file-metadata-size-limits` | File Metadata Size Limits | C 001–148 |
+| Completed | `russian-150-travel-problem-scenarios` | Travel Problem Scenarios | Russian 001–149 |
+| Completed | `c-150-safe-file-name-policy` | Safe File Name Policy | C 001–149 |
+| Completed | `russian-151-accommodation-and-complaints` | Accommodation and Polite Complaints | Russian 001–150 |
+| Completed | `c-151-deterministic-clock-injection` | Deterministic Clock Injection | C 001–150 |
+| Completed | `russian-152-shopping-return-negotiation` | Returns and Exchange Negotiation | Russian 001–151 |
+| Completed | `c-152-simulated-timeout-budget` | Simulated Timeout Budget | C 001–151 |
+| Completed | `russian-153-service-recovery-dialogue` | Service Recovery Dialogue | Russian 001–152 |
+| Completed | `c-153-deterministic-test-input-generator` | Deterministic Test Input Generator | C 001–152 |
+| Completed | `russian-154-health-appointment-language` | Health Appointment Language | Russian 001–153 |
+| Completed | `c-154-pseudo-random-test-seeds` | Pseudo-Random Test Seeds | C 001–153 |
+| Completed | `russian-155-emergency-language-boundaries` | Emergency Language and Boundaries | Russian 001–154 |
+| Completed | `c-155-fuzz-harness-entry-contract` | Fuzz Harness Entry Contract | C 001–154 |
+| Completed | `russian-156-public-notices-and-rules` | Public Notices and Rules | Russian 001–155 |
+| Completed | `c-156-mutation-corpus-safety` | Mutation Corpus Safety | C 001–155 |
+| Completed | `russian-157-forms-and-personal-details` | Forms and Personal Details | Russian 001–156 |
+| Completed | `c-157-differential-parser-test-shape` | Differential Parser Test Shape | C 001–156 |
+| Completed | `russian-158-digital-privacy-phrases` | Digital Privacy Phrases | Russian 001–157 |
+| Completed | `c-158-property-test-invariants` | Property Test Invariants | C 001–157 |
+| Completed | `russian-159-misinformation-and-uncertainty` | Misinformation and Uncertainty | Russian 001–158 |
+| Completed | `c-159-metamorphic-byte-transform-tests` | Metamorphic Byte Transform Tests | C 001–158 |
+| Completed | `russian-160-media-summary-and-tone` | Media Summary and Tone | Russian 001–159 |
+| Completed | `c-160-minimal-repro-case-format` | Minimal Reproduction Case Format | C 001–159 |
+| Completed | `russian-161-environmental-routines` | Environmental Routines | Russian 001–160 |
+| Completed | `c-161-integer-boundary-test-matrix` | Integer Boundary Test Matrix | C 001–160 |
+| Completed | `russian-162-city-services-and-inquiries` | City Services and Inquiries | Russian 001–161 |
+| Completed | `c-162-lifetime-and-alias-test-cases` | Lifetime and Alias Test Cases | C 001–161 |
+| Completed | `russian-163-community-event-planning` | Community Event Planning | Russian 001–162 |
+| Completed | `c-163-ownership-map-review` | Ownership Map Review | C 001–162 |
+| Completed | `russian-164-volunteering-and-polite-boundaries` | Volunteering and Polite Boundaries | Russian 001–163 |
+| Completed | `c-164-source-review-preconditions` | Source Review Preconditions | C 001–163 |
+| Completed | `russian-165-story-setting-and-background` | Story Setting and Background | Russian 001–164 |
+| Completed | `c-165-misuse-resistant-api-design` | Misuse-Resistant API Design | C 001–164 |
+| Completed | `russian-166-narrative-sequencing` | Narrative Sequencing | Russian 001–165 |
+| Completed | `c-166-token-budget-parser-limit` | Token Budget Parser Limit | C 001–165 |
+| Completed | `russian-167-character-motivation` | Character Motivation | Russian 001–166 |
+| Completed | `c-167-work-quota-accounting` | Work Quota Accounting | C 001–166 |
+| Completed | `russian-168-speech-and-thought-in-stories` | Speech and Thought in Stories | Russian 001–167 |
+| Completed | `c-168-nesting-depth-caps` | Nesting Depth Caps | C 001–167 |
+| Completed | `russian-169-contrast-and-expectation` | Contrast and Expectation | Russian 001–168 |
+| Completed | `c-169-message-count-limits` | Message Count Limits | C 001–168 |
+| Completed | `russian-170-nuanced-certainty` | Nuanced Certainty | Russian 001–169 |
+| Completed | `c-170-bounded-work-per-input` | Bounded Work per Input | C 001–169 |
+| Completed | `russian-171-expressing-regret` | Expressing Regret | Russian 001–170 |
+| Completed | `c-171-safe-untrusted-input-logging` | Safe Untrusted Input Logging | C 001–170 |
+| Completed | `russian-172-offering-support` | Offering Support | Russian 001–171 |
+| Completed | `c-172-error-report-redaction` | Error Report Redaction | C 001–171 |
+| Completed | `russian-173-negotiating-plans` | Negotiating Plans | Russian 001–172 |
+| Completed | `c-173-truncated-hex-diagnostics` | Truncated Hex Diagnostics | C 001–172 |
+| Completed | `russian-174-project-brief-language` | Project Brief Language | Russian 001–173 |
+| Completed | `c-174-diagnostic-code-taxonomy` | Diagnostic Code Taxonomy | C 001–173 |
+| Completed | `russian-175-project-checkin-language` | Project Check-In Language | Russian 001–174 |
+| Completed | `c-175-grammar-driven-format-contract` | Grammar-Driven Format Contract | C 001–174 |
+| Completed | `russian-176-reviewing-clarity` | Reviewing Clarity | Russian 001–175 |
+| Completed | `c-176-table-driven-parser-state-machine` | Table-Driven Parser State Machine | C 001–175 |
+| Completed | `russian-177-presenting-a-small-idea` | Presenting a Small Idea | Russian 001–176 |
+| Completed | `c-177-composable-bounded-parser-stages` | Composable Bounded Parser Stages | C 001–176 |
+| Completed | `russian-178-questions-and-answers` | Questions and Answers | Russian 001–177 |
+| Completed | `c-178-tagged-field-wire-types` | Tagged Field Wire Types | C 001–177 |
+| Completed | `russian-179-meeting-facilitation` | Meeting Facilitation | Russian 001–178 |
+| Completed | `c-179-extensible-tlv-field-rules` | Extensible TLV Field Rules | C 001–178 |
+| Completed | `russian-180-meeting-follow-up` | Meeting Follow-Up | Russian 001–179 |
+| Completed | `c-180-tagged-union-validation` | Tagged Union Validation | C 001–179 |
+| Completed | `russian-181-study-debate` | Study Debate | Russian 001–180 |
+| Completed | `c-181-tagged-union-regression-tests` | Tagged Union Regression Tests | C 001–180 |
+| Completed | `russian-182-evidence-qualifiers` | Evidence Qualifiers | Russian 001–181 |
+| Completed | `c-182-compatibility-matrix-tests` | Compatibility Matrix Tests | C 001–181 |
+| Completed | `russian-183-hypotheses-and-limits` | Hypotheses and Limits | Russian 001–182 |
+| Completed | `c-183-canonical-input-rejection` | Canonical Input Rejection | C 001–182 |
+| Completed | `russian-184-basic-data-description` | Basic Data Description | Russian 001–183 |
+| Completed | `c-184-multi-record-file-envelope` | Multi-Record File Envelope | C 001–183 |
+| Completed | `russian-185-process-comparison` | Process Comparison | Russian 001–184 |
+| Completed | `c-185-checked-index-offsets` | Checked Index Offsets | C 001–184 |
+| Completed | `russian-186-risk-and-mitigation-language` | Risk and Mitigation Language | Russian 001–185 |
+| Completed | `c-186-metadata-checksum-limits` | Metadata Checksum Limits | C 001–185 |
+| Completed | `russian-187-ethical-disagreement` | Ethical Disagreement | Russian 001–186 |
+| Completed | `c-187-authenticated-envelope-architecture` | Authenticated Envelope Architecture | C 001–186 |
+| Completed | `russian-188-formal-complaint-structure` | Formal Complaint Structure | Russian 001–187 |
+| Completed | `c-188-library-wrapper-interface` | Library Wrapper Interface | C 001–187 |
+| Completed | `russian-189-formal-response-structure` | Formal Response Structure | Russian 001–188 |
+| Completed | `c-189-third-party-error-mapping` | Third-Party Error Mapping | C 001–188 |
+| Completed | `russian-190-collaborative-writing` | Collaborative Writing | Russian 001–189 |
+| Completed | `c-190-secure-default-configuration` | Secure Default Configuration | C 001–189 |
+| Completed | `russian-191-revision-and-editing` | Revision and Editing | Russian 001–190 |
+| Completed | `c-191-no-custom-crypto-policy` | No-Custom-Crypto Policy | C 001–190 |
+| Completed | `russian-192-reading-longer-texts` | Reading Longer Texts Strategically | Russian 001–191 |
+| Completed | `c-192-protocol-documentation-checklist` | Protocol Documentation Checklist | C 001–191 |
+| Completed | `russian-193-listening-strategy-language` | Listening Strategy Language | Russian 001–192 |
+| Completed | `c-193-release-readiness-checklist` | Release Readiness Checklist | C 001–192 |
+| Completed | `russian-194-presentation-practice` | Presentation Practice | Russian 001–193 |
+| Completed | `c-194-test-vector-packaging` | Test Vector Packaging | C 001–193 |
+| Completed | `russian-195-advanced-case-review` | Advanced Case Review | Russian 001–194 |
+| Completed | `c-195-continuous-integration-command-set` | Continuous Integration Command Set | C 001–194 |
+| Completed | `russian-196-aspect-and-motion-review` | Aspect and Motion Review | Russian 001–195 |
+| Completed | `c-196-reproducible-build-metadata` | Reproducible Build Metadata | C 001–195 |
+| Completed | `russian-197-register-review` | Register Review | Russian 001–196 |
+| Completed | `c-197-portability-configuration-boundaries` | Portability Configuration Boundaries | C 001–196 |
+| Completed | `russian-198-integrated-service-project` | Integrated Service Project Dialogue | Russian 001–197 |
+| Completed | `c-198-defensive-parser-library-capstone` | Defensive Parser Library Capstone | C 001–197 |
+| Completed | `russian-199-integrated-workshop-discussion` | Integrated Workshop Discussion | Russian 001–198 |
+| Completed | `c-199-bounded-writer-library-capstone` | Bounded Writer Library Capstone | C 001–198 |
+| Completed | `russian-200-exam-style-self-assessment` | Exam-Style Self-Assessment | Russian 001–199 |
+| Completed | `c-200-conformance-test-capstone` | Conformance Test Capstone | C 001–199 |
+| Completed | `russian-201-final-portfolio-dialogue-and-reflection` | Final Portfolio Dialogue and Reflection | Russian 001–200 |
+| Completed | `c-201-final-byte-systems-review` | Final Byte Systems Review | C 001–200 |
 
 ## Long-range C milestones
 
@@ -255,3 +455,5 @@ C lesson 101 is complete. The next scheduled run must create **Russian lesson 10
 - **2026-09-25 — Batch expansion completed (Russian 028–057 and C 028–057).** The Russian track advanced from basic preferences through shopping, adverbs of frequency, imperatives, languages, spatial relations, occupations, reasoning, body parts, opinions, weather nuances, messages, sports, household rooms, clothing, travel, cafes, clarifications, future plans, formal etiquette, idioms, and an integrated capstone dialogue. The C track covered structured text parsing, hexadecimal decoding, byte reversing, substring matching, run-length decoding, TLV validation, sliding windows, ring buffers, prefix slices, varint encoding/decoding, parity, popcount, XOR masks, CRC-8 (bit-by-bit and table), deduplication, TLV frames, big-endian 64-bit integer conversions, constant-time equality, toy sponge mixing, FIFO queues, compaction, bitsets, Base64 encode/decode, sorted list merging, and an explicit protocol state machine. All 30 companion C programs passed strict -std=c17 compilation, deterministic shell test assertions, -fanalyzer static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer executions. The next scheduled topic is Russian 058: expressing wishes and future ambitions with `хотелось бы`.
 
 - **2026-09-25 — Batch expansion completed (Russian 058–101 and C 058–101).** The Russian track advanced through possession, numbers, the dative and instrumental cases, topic phrases, aspect, motion verbs, conditionals, relative and indirect questions, impersonal expressions, appointments, service encounters, reading notices, cautious opinions, cohesion, narrative, planning, and an integrated capstone dialogue plus study log. The C track advanced through bounded reassembly, sequence tracking, ownership and allocation arithmetic, record APIs, safe file I/O, parser status handling, explicit endianness, non-cryptographic CRC and toy-hash literacy, library-boundary design, threat modeling, fuzz seeds, round-trip tests, sanitizers, static-analysis-ready error paths, protocol limits, and defensive parsing capstones. All 44 C companion programs passed strict C17 compilation, deterministic tests, GCC static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. The next scheduled topic is Russian 102.
+
+- **2026-09-25 — Extended batch completed (Russian 102–201 and C 102–201).** The Russian track advanced through reflexive and reciprocal verbs, case-pattern review, aspect and motion review, reported and relative structures, polite professional and service communication, source-aware summaries, collaborative discussion, evidence qualifiers, narrative work, revision, and final portfolio reflection. The C track advanced through explicit span and cursor APIs, checked conversions and allocations, portable serialization, bounded parser and writer components, safe file operations, deterministic test design, input limits, safe diagnostics, tagged and versioned formats, and a strict no-custom-cryptography library-boundary policy. All 100 C companion programs passed strict ISO C17 compilation, deterministic tests, GCC static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. The prepared curriculum now ends at lesson 201 on both tracks; no lesson 202 may be created without an explicit future extension or remediation request.
