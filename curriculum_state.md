@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 017 is complete. The next scheduled run must create **Russian lesson 018**. No review or remediation lesson is currently scheduled.
+C lesson 027 is complete. The next scheduled run must create **Russian lesson 028**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -51,8 +51,28 @@ C lesson 017 is complete. The next scheduled run must create **Russian lesson 01
 | Completed | `c-016-fixed-header-serialization-round-trips` | Fixed-header serialization with byte order and round-trip tests | C 001–015 |
 | Completed | `russian-017-integrated-routines-past-present-and-future` | Integrated routine statements across past, present, and future | Russian 001–016 |
 | Completed | `c-017-fixed-binary-records-and-truncation` | Fixed binary records with checked decoding and truncation handling | C 001–016 |
-| Next | `russian-018-directions-and-general-places` | Directions and general place phrases | Russian 001–017 |
-| Planned after next | `c-018-bounded-binary-record-writing` | Checked record writing, partial writes, and output error handling | C 001–017 |
+| Completed | `russian-018-directions-and-general-places` | Directions and general place phrases | Russian 001–017 |
+| Completed | `c-018-bounded-binary-record-writing` | Bounded binary record writing with checked output results | C 001–017 |
+| Completed | `russian-019-motion-with-v-and-na` | Basic motion with `в`, `на`, and `куда?` | Russian 001–018 |
+| Completed | `c-019-append-only-binary-output` | Append-only binary output with checked writes | C 001–018 |
+| Completed | `russian-020-numbers-one-to-ten-and-noun-awareness` | Numbers one to ten and controlled noun awareness | Russian 001–019 |
+| Completed | `c-020-counted-byte-copy-and-equality` | Counted byte copying and equality without sentinels | C 001–019 |
+| Completed | `russian-021-family-and-people-vocabulary` | Family and people vocabulary with neutral possessive statements | Russian 001–020 |
+| Completed | `c-021-checked-uint32-arithmetic` | Checked `uint32_t` arithmetic and overflow rejection | C 001–020 |
+| Completed | `russian-022-weather-and-basic-adjectives` | General weather descriptions and basic adjective review | Russian 001–021 |
+| Completed | `c-022-byte-histograms-with-bounds` | Byte histograms with bounded counters | C 001–021 |
+| Completed | `russian-023-food-and-simple-requests` | Food words and simple, general requests | Russian 001–022 |
+| Completed | `c-023-length-prefixed-byte-buffers` | Length-prefixed byte buffers and input validation | C 001–022 |
+| Completed | `russian-024-days-of-week-and-routines` | Days of the week and fictional routine statements | Russian 001–023 |
+| Completed | `c-024-bounded-binary-frame-decoding` | Validated decoding of bounded binary frames | C 001–023 |
+| Completed | `russian-025-comparatives-with-bolshe-i-menshe` | Controlled comparisons with `больше` and `меньше` | Russian 001–024 |
+| Completed | `c-025-streaming-byte-processing` | Streaming byte processing with bounded accumulation | C 001–024 |
+| Completed | `russian-026-polite-requests-and-please` | Polite requests and `пожалуйста` | Russian 001–025 |
+| Completed | `c-026-counted-byte-equality` | Counted byte equality with embedded zero bytes | C 001–025 |
+| Completed | `russian-027-cumulative-conversation-and-review` | Cumulative fictional conversation and review | Russian 001–026 |
+| Completed | `c-027-toy-mixing-and-test-vectors` | Insecure toy mixing and fixed test vectors | C 001–026 |
+| Next | `russian-028-likes-and-basic-preferences` | Likes, dislikes, and basic preferences | Russian 001–027 |
+| Planned after next | `c-028-structured-text-and-byte-boundaries` | Structured text parsing, byte boundaries, and checked conversion | C 001–027 |
 
 ## Long-range C milestones
 
@@ -84,3 +104,5 @@ C lesson 017 is complete. The next scheduled run must create **Russian lesson 01
 - **2026-09-25 — C 007 completed.** The lesson retrieved explicit byte-buffer boundaries and Russian negation, then introduced exact-width `uint32_t` words, named 8/8/16-bit field layouts, masks, bounded shifts, range checks, and field extraction. The companion program packs and reports logical metadata words without defining a byte serialization or cryptographic operation. Its deterministic report test and helper-contract harness cover valid packing, value-range rejection, output preservation on rejected input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 008: possessive pronouns, familiar people, and short ownership statements.
 
 - **2026-09-25 — Expanded batch completed (Russian 008–017 and C 008–017).** The Russian track advanced through possession, plurals, inanimate direct objects, time words, singular and plural past forms, simple future, ability, wants, and cumulative controlled practice. The C track advanced through explicit byte order, robust file copying, bounded file statistics, strict parsing, dynamic buffers, safe rotations, an explicitly non-cryptographic toy checksum, dynamic file reading, fixed-header serialization, and fixed-record truncation checks. All ten C companion programs passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 018: directions and general place phrases.
+
+- **2026-09-25 — Expanded batch completed (Russian 018–027 and C 018–027).** The Russian track added directions, controlled destinations, numbers, people vocabulary, weather, simple requests, days, comparisons, politeness, and a cumulative fictional conversation. The C track added checked record writing, append output, counted byte copy and equality, overflow-aware `uint32_t` arithmetic, histograms, length prefixes, frame decoding, streaming processing, and a clearly insecure toy mix with a fixed vector. All ten C examples passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 028: likes, dislikes, and basic preferences.
