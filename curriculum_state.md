@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 007 is complete. The next scheduled run must create **Russian lesson 008**. No review or remediation lesson is currently scheduled.
+C lesson 017 is complete. The next scheduled run must create **Russian lesson 018**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -31,7 +31,28 @@ C lesson 007 is complete. The next scheduled run must create **Russian lesson 00
 | Completed | `russian-007-questions-and-basic-negation` | Yes/no questions, `не`, and concise responses about routines and locations | Russian 001–006 |
 | Completed | `c-007-bitwise-operations-and-uint32-t` | `uint32_t`, masks, shifts, and bounded word-oriented data handling | C 001–006 |
 | Next | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
-| Planned after next | `c-008-byte-order-and-explicit-serialization` | Endianness, byte order, and explicit `uint8_t`/`uint32_t` conversions | C 001–007 |
+| Completed | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
+| Completed | `c-008-byte-order-and-explicit-serialization` | Byte order and explicit `uint8_t`/`uint32_t` serialization | C 001–007 |
+| Completed | `russian-009-plural-nouns-and-counting-small-groups` | Plural noun packages and statements about small groups | Russian 001–008 |
+| Completed | `c-009-robust-binary-file-copying` | Robust binary file copying with checked reads and partial writes | C 001–008 |
+| Completed | `russian-010-accusative-inanimate-direct-objects` | Inanimate direct objects in the accusative | Russian 001–009 |
+| Completed | `c-010-bounded-chunk-file-statistics` | Bounded binary chunk processing and checked file statistics | C 001–009 |
+| Completed | `russian-011-time-words-and-daily-schedule` | Time words and concise daily routine statements | Russian 001–010 |
+| Completed | `c-011-strict-hexadecimal-parsing-and-fields` | Strict hexadecimal parsing and validated word fields | C 001–010 |
+| Completed | `russian-012-past-tense-singular-and-gender` | Singular past tense with gender-aware forms | Russian 001–011 |
+| Completed | `c-012-checked-dynamic-byte-buffers` | Dynamic byte buffers with checked allocation growth | C 001–011 |
+| Completed | `russian-013-past-tense-plural-and-people` | Plural past tense and general group statements | Russian 001–012 |
+| Completed | `c-013-safe-uint32-rotations-and-test-vectors` | Safe `uint32_t` rotations and fixed test vectors | C 001–012 |
+| Completed | `russian-014-future-plans-with-budu-and-infinitives` | Simple future plans with `буду` and infinitives | Russian 001–013 |
+| Completed | `c-014-checksums-and-noncryptographic-integrity` | Toy checksums, test vectors, and non-cryptographic limitations | C 001–013 |
+| Completed | `russian-015-ability-with-mogu-and-mozhesh` | Ability with `могу`, `можешь`, and `можете` | Russian 001–014 |
+| Completed | `c-015-dynamic-file-reading-with-checked-growth` | Dynamic file reading with bounded chunks and checked growth | C 001–014 |
+| Completed | `russian-016-wants-with-khochu-and-infinitives` | Wants with `хочу` and familiar infinitives | Russian 001–015 |
+| Completed | `c-016-fixed-header-serialization-round-trips` | Fixed-header serialization with byte order and round-trip tests | C 001–015 |
+| Completed | `russian-017-integrated-routines-past-present-and-future` | Integrated routine statements across past, present, and future | Russian 001–016 |
+| Completed | `c-017-fixed-binary-records-and-truncation` | Fixed binary records with checked decoding and truncation handling | C 001–016 |
+| Next | `russian-018-directions-and-general-places` | Directions and general place phrases | Russian 001–017 |
+| Planned after next | `c-018-bounded-binary-record-writing` | Checked record writing, partial writes, and output error handling | C 001–017 |
 
 ## Long-range C milestones
 
@@ -61,3 +82,5 @@ C lesson 007 is complete. The next scheduled run must create **Russian lesson 00
 - **2026-09-24 — C 006 completed.** The lesson retrieved pointer-plus-count and C-string boundary concepts plus a Russian location phrase, then introduced exact-width `uint8_t` data, explicit byte-buffer lengths, hexadecimal output with `PRIX8`, and bounded byte traversal that preserves embedded zero-valued bytes. Its deterministic report test and helper-contract harness cover valid buffers, null buffers, zero-length input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 007: yes/no questions, `не`, and concise responses about routines and locations.
 - **2026-09-24 — Russian 007 completed.** The lesson retrieved location phrases and byte-buffer boundaries, then introduced everyday yes/no questions formed with unchanged statement order and question intonation, plus `не` in basic present-tense and location negation. It practised full `Да, ...` and `Нет, ...` responses using established routine and location vocabulary. No learner feedback was available. The next topic is C 007: `uint32_t`, masks, shifts, and bounded word-oriented data handling.
 - **2026-09-25 — C 007 completed.** The lesson retrieved explicit byte-buffer boundaries and Russian negation, then introduced exact-width `uint32_t` words, named 8/8/16-bit field layouts, masks, bounded shifts, range checks, and field extraction. The companion program packs and reports logical metadata words without defining a byte serialization or cryptographic operation. Its deterministic report test and helper-contract harness cover valid packing, value-range rejection, output preservation on rejected input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 008: possessive pronouns, familiar people, and short ownership statements.
+
+- **2026-09-25 — Expanded batch completed (Russian 008–017 and C 008–017).** The Russian track advanced through possession, plurals, inanimate direct objects, time words, singular and plural past forms, simple future, ability, wants, and cumulative controlled practice. The C track advanced through explicit byte order, robust file copying, bounded file statistics, strict parsing, dynamic buffers, safe rotations, an explicitly non-cryptographic toy checksum, dynamic file reading, fixed-header serialization, and fixed-record truncation checks. All ten C companion programs passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 018: directions and general place phrases.
