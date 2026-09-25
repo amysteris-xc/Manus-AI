@@ -30,7 +30,6 @@ C lesson 027 is complete. The next scheduled run must create **Russian lesson 02
 | Completed | `c-006-unsigned-integers-and-byte-arrays` | `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal | C 001–005 |
 | Completed | `russian-007-questions-and-basic-negation` | Yes/no questions, `не`, and concise responses about routines and locations | Russian 001–006 |
 | Completed | `c-007-bitwise-operations-and-uint32-t` | `uint32_t`, masks, shifts, and bounded word-oriented data handling | C 001–006 |
-| Next | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
 | Completed | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
 | Completed | `c-008-byte-order-and-explicit-serialization` | Byte order and explicit `uint8_t`/`uint32_t` serialization | C 001–007 |
 | Completed | `russian-009-plural-nouns-and-counting-small-groups` | Plural noun packages and statements about small groups | Russian 001–008 |
