@@ -12,7 +12,7 @@
 
 ## Current position
 
-Russian lesson 007 is complete. The next scheduled run must create **C lesson 007**. No review or remediation lesson is currently scheduled.
+C lesson 007 is complete. The next scheduled run must create **Russian lesson 008**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -29,8 +29,9 @@ Russian lesson 007 is complete. The next scheduled run must create **C lesson 00
 | Completed | `russian-006-places-and-location-phrases` | Common places, `где?` questions, and basic location phrases | Russian 001–005 |
 | Completed | `c-006-unsigned-integers-and-byte-arrays` | `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal | C 001–005 |
 | Completed | `russian-007-questions-and-basic-negation` | Yes/no questions, `не`, and concise responses about routines and locations | Russian 001–006 |
-| Next | `c-007-bitwise-operations-and-uint32-t` | `uint32_t`, masks, shifts, and bounded word-oriented data handling | C 001–006 |
-| Planned after next | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
+| Completed | `c-007-bitwise-operations-and-uint32-t` | `uint32_t`, masks, shifts, and bounded word-oriented data handling | C 001–006 |
+| Next | `russian-008-possessives-and-everyday-people` | Possessive pronouns, familiar people, and short ownership statements | Russian 001–007 |
+| Planned after next | `c-008-byte-order-and-explicit-serialization` | Endianness, byte order, and explicit `uint8_t`/`uint32_t` conversions | C 001–007 |
 
 ## Long-range C milestones
 
@@ -59,3 +60,4 @@ Russian lesson 007 is complete. The next scheduled run must create **C lesson 00
 - **2026-09-23 — Russian 006 completed.** The lesson retrieved present-tense routines and C array-interface concepts, then introduced `Где?` location questions and the memorized location packages `дома`, `в школе`, `в парке`, `в библиотеке`, and `на работе`. It combined those packages with existing routine verbs and set aside motion/destination patterns for a later lesson. No learner feedback was available. The next topic is C 006: `uint8_t`, byte arrays versus strings, explicit lengths, and bounded byte traversal.
 - **2026-09-24 — C 006 completed.** The lesson retrieved pointer-plus-count and C-string boundary concepts plus a Russian location phrase, then introduced exact-width `uint8_t` data, explicit byte-buffer lengths, hexadecimal output with `PRIX8`, and bounded byte traversal that preserves embedded zero-valued bytes. Its deterministic report test and helper-contract harness cover valid buffers, null buffers, zero-length input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 007: yes/no questions, `не`, and concise responses about routines and locations.
 - **2026-09-24 — Russian 007 completed.** The lesson retrieved location phrases and byte-buffer boundaries, then introduced everyday yes/no questions formed with unchanged statement order and question intonation, plus `не` in basic present-tense and location negation. It practised full `Да, ...` and `Нет, ...` responses using established routine and location vocabulary. No learner feedback was available. The next topic is C 007: `uint32_t`, masks, shifts, and bounded word-oriented data handling.
+- **2026-09-25 — C 007 completed.** The lesson retrieved explicit byte-buffer boundaries and Russian negation, then introduced exact-width `uint32_t` words, named 8/8/16-bit field layouts, masks, bounded shifts, range checks, and field extraction. The companion program packs and reports logical metadata words without defining a byte serialization or cryptographic operation. Its deterministic report test and helper-contract harness cover valid packing, value-range rejection, output preservation on rejected input, and null output pointers; strict compilation and AddressSanitizer/UndefinedBehaviorSanitizer runs all passed. No learner feedback was available. The next topic is Russian 008: possessive pronouns, familiar people, and short ownership statements.
