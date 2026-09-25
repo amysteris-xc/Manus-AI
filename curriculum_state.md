@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 027 is complete. The next scheduled run must create **Russian lesson 028**. No review or remediation lesson is currently scheduled.
+C lesson 057 is complete. The next scheduled run must create **Russian lesson 058**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -70,8 +70,68 @@ C lesson 027 is complete. The next scheduled run must create **Russian lesson 02
 | Completed | `c-026-counted-byte-equality` | Counted byte equality with embedded zero bytes | C 001–025 |
 | Completed | `russian-027-cumulative-conversation-and-review` | Cumulative fictional conversation and review | Russian 001–026 |
 | Completed | `c-027-toy-mixing-and-test-vectors` | Insecure toy mixing and fixed test vectors | C 001–026 |
-| Next | `russian-028-likes-and-basic-preferences` | Likes, dislikes, and basic preferences | Russian 001–027 |
-| Planned after next | `c-028-structured-text-and-byte-boundaries` | Structured text parsing, byte boundaries, and checked conversion | C 001–027 |
+| Completed | `russian-028-likes-and-basic-preferences` | Likes, Dislikes, and Basic Preferences | Russian 001–027 |
+| Completed | `c-028-structured-text-and-byte-boundaries` | Structured Text and Byte Boundaries | C 001–027 |
+| Completed | `russian-029-telling-time-on-the-hour` | Telling Time on the Hour | Russian 001–028 |
+| Completed | `c-029-hexadecimal-decoding-with-bounds` | Hexadecimal Decoding with Bounds | C 001–028 |
+| Completed | `russian-030-months-and-seasons-overview` | Months and Seasons Overview | Russian 001–029 |
+| Completed | `c-030-checked-byte-array-reverse` | Checked Byte Array Reversal | C 001–029 |
+| Completed | `russian-031-colors-and-object-agreement` | Colors and Object Agreement | Russian 001–030 |
+| Completed | `c-031-counted-byte-substring-search` | Counted Byte Substring Search | C 001–030 |
+| Completed | `russian-032-conjunctions-i-a-and-no` | Connecting Ideas with `и`, `а`, and `но` | Russian 001–031 |
+| Completed | `c-032-counted-run-length-byte-decoding` | Counted Run-Length Byte Decoding | C 001–031 |
+| Completed | `russian-033-modes-of-transport-with-na` | Modes of Transport with `на` | Russian 001–032 |
+| Completed | `c-033-multi-field-binary-record-validation` | Multi-Field Binary Record Validation | C 001–032 |
+| Completed | `russian-034-shopping-and-skolko-stoit` | Shopping Inquiries with `Сколько стоит?` | Russian 001–033 |
+| Completed | `c-034-sliding-window-byte-matching` | Sliding Window Byte Matching | C 001–033 |
+| Completed | `russian-035-adverbs-of-frequency` | Adverbs of Frequency | Russian 001–034 |
+| Completed | `c-035-fixed-size-circular-byte-buffer` | Fixed-Size Circular Byte Buffer | C 001–034 |
+| Completed | `russian-036-giving-simple-instructions-imperatives` | Giving Simple Instructions with Imperatives | Russian 001–035 |
+| Completed | `c-036-prefix-length-matching-on-byte-slices` | Prefix Length Matching on Byte Slices | C 001–035 |
+| Completed | `russian-037-languages-and-speaking-po-russki` | Languages and Speaking with `по-русски` | Russian 001–036 |
+| Completed | `c-037-checked-variable-byte-integer-encoding` | Checked Variable-Byte Integer Encoding | C 001–036 |
+| Completed | `russian-038-spatial-prepositions-okolo-and-ryadom` | Spatial Relations with `около` and `рядом` | Russian 001–037 |
+| Completed | `c-038-checked-variable-byte-integer-decoding` | Checked Variable-Byte Integer Decoding | C 001–037 |
+| Completed | `russian-039-professions-and-occupations` | Professions and Occupations | Russian 001–038 |
+| Completed | `c-039-simple-bit-level-parity-calculation` | Simple Bit-Level Parity Calculation | C 001–038 |
+| Completed | `russian-040-expressing-reasons-with-potomu-chto` | Expressing Reasons with `потому что` | Russian 001–039 |
+| Completed | `c-040-lookup-table-bit-count-calculation` | Lookup-Table Bit-Count Calculation | C 001–039 |
+| Completed | `russian-041-body-parts-and-physical-states` | Body Parts and Physical States | Russian 001–040 |
+| Completed | `c-041-byte-wise-xor-masking-and-unmasking` | Byte-Wise XOR Masking and Unmasking | C 001–040 |
+| Completed | `russian-042-expressing-agreement-and-opinion` | Expressing Agreement and Opinion | Russian 001–041 |
+| Completed | `c-042-non-cryptographic-crc8-computation` | Non-Cryptographic CRC-8 Computation | C 001–041 |
+| Completed | `russian-043-seasons-and-weather-nuances` | Weather Nuances and Climate Descriptions | Russian 001–042 |
+| Completed | `c-043-table-driven-crc8-verification` | Table-Driven CRC-8 Verification | C 001–042 |
+| Completed | `russian-044-post-office-and-letters-vocabulary` | Letters, Messages, and Delivery | Russian 001–043 |
+| Completed | `c-044-counted-byte-buffer-deduplication` | Counted Byte Buffer Deduplication | C 001–043 |
+| Completed | `russian-045-sports-and-exercise-routines` | Sports and Exercise Routines | Russian 001–044 |
+| Completed | `c-045-binary-key-value-frame-serialization` | Binary Key-Value Frame Serialization | C 001–044 |
+| Completed | `russian-046-rooms-in-a-house-and-furniture` | Rooms in a House and Furniture | Russian 001–045 |
+| Completed | `c-046-binary-key-value-frame-parsing` | Binary Key-Value Frame Parsing | C 001–045 |
+| Completed | `russian-047-clothing-and-dressing-verbs` | Clothing Words and Simple Descriptions | Russian 001–046 |
+| Completed | `c-047-checked-big-endian-64bit-integer-encoding` | Checked Big-Endian 64-Bit Integer Encoding | C 001–046 |
+| Completed | `russian-048-shopping-for-clothes-and-size` | Shopping for Clothes and Size Inquiries | Russian 001–047 |
+| Completed | `c-048-checked-big-endian-64bit-integer-decoding` | Checked Big-Endian 64-Bit Integer Decoding | C 001–047 |
+| Completed | `russian-049-music-art-and-cultural-interests` | Music, Art, and Cultural Interests | Russian 001–048 |
+| Completed | `c-049-constant-time-byte-buffer-equality-check` | Constant-Time Byte Buffer Equality Check | C 001–048 |
+| Completed | `russian-050-travel-plans-and-buying-tickets` | Travel Plans and Buying Tickets | Russian 001–049 |
+| Completed | `c-050-toy-sponge-mixing-and-security-limits` | Toy Sponge Mixing and Security Limits | C 001–049 |
+| Completed | `russian-051-hotels-and-accommodation` | Hotels and Accommodation | Russian 001–050 |
+| Completed | `c-051-fixed-size-fifo-byte-queue` | Fixed-Size FIFO Byte Queue | C 001–050 |
+| Completed | `russian-052-ordering-in-a-cafe-and-bill` | Ordering in a Cafe and Asking for the Bill | Russian 001–051 |
+| Completed | `c-052-byte-array-compaction-and-filtering` | Byte Array Compaction and Filtering | C 001–051 |
+| Completed | `russian-053-asking-for-help-and-clarification` | Asking for Help and Clarification | Russian 001–052 |
+| Completed | `c-053-bitset-implementation-on-uint8-arrays` | Bitset Implementation on uint8_t Arrays | C 001–052 |
+| Completed | `russian-054-future-intentions-with-planiruyu` | Future Intentions with `я планирую` | Russian 001–053 |
+| Completed | `c-054-simple-base64-encoding-for-byte-buffers` | Simple Base64 Encoding for Byte Buffers | C 001–053 |
+| Completed | `russian-055-polite-phone-and-message-etiquette` | Message and Communication Etiquette | Russian 001–054 |
+| Completed | `c-055-simple-base64-decoding-with-validation` | Simple Base64 Decoding with Validation | C 001–054 |
+| Completed | `russian-056-idiomatic-expressions-and-sayings` | Common Idiomatic Expressions and Sayings | Russian 001–055 |
+| Completed | `c-056-binary-safe-merge-of-two-sorted-byte-lists` | Binary Safe Merge of Two Sorted Byte Lists | C 001–055 |
+| Completed | `russian-057-comprehensive-review-and-capstone-dialogue` | Comprehensive Review and Capstone Dialogue | Russian 001–056 |
+| Completed | `c-057-comprehensive-byte-stream-state-machine` | Comprehensive Byte-Stream State Machine | C 001–056 |
+| Next | `russian-058-expressing-wishes-and-future-ambitions` | Expressing wishes and future ambitions with `хотелось бы` | Russian 001–057 |
+| Planned after next | `c-058-multi-packet-reassembly-buffers` | Multi-packet reassembly buffers with checked sequence numbers | C 001–057 |
 
 ## Long-range C milestones
 
@@ -105,3 +165,5 @@ C lesson 027 is complete. The next scheduled run must create **Russian lesson 02
 - **2026-09-25 — Expanded batch completed (Russian 008–017 and C 008–017).** The Russian track advanced through possession, plurals, inanimate direct objects, time words, singular and plural past forms, simple future, ability, wants, and cumulative controlled practice. The C track advanced through explicit byte order, robust file copying, bounded file statistics, strict parsing, dynamic buffers, safe rotations, an explicitly non-cryptographic toy checksum, dynamic file reading, fixed-header serialization, and fixed-record truncation checks. All ten C companion programs passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 018: directions and general place phrases.
 
 - **2026-09-25 — Expanded batch completed (Russian 018–027 and C 018–027).** The Russian track added directions, controlled destinations, numbers, people vocabulary, weather, simple requests, days, comparisons, politeness, and a cumulative fictional conversation. The C track added checked record writing, append output, counted byte copy and equality, overflow-aware `uint32_t` arithmetic, histograms, length prefixes, frame decoding, streaming processing, and a clearly insecure toy mix with a fixed vector. All ten C examples passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 028: likes, dislikes, and basic preferences.
+
+- **2026-09-25 — Batch expansion completed (Russian 028–057 and C 028–057).** The Russian track advanced from basic preferences through shopping, adverbs of frequency, imperatives, languages, spatial relations, occupations, reasoning, body parts, opinions, weather nuances, messages, sports, household rooms, clothing, travel, cafes, clarifications, future plans, formal etiquette, idioms, and an integrated capstone dialogue. The C track covered structured text parsing, hexadecimal decoding, byte reversing, substring matching, run-length decoding, TLV validation, sliding windows, ring buffers, prefix slices, varint encoding/decoding, parity, popcount, XOR masks, CRC-8 (bit-by-bit and table), deduplication, TLV frames, big-endian 64-bit integer conversions, constant-time equality, toy sponge mixing, FIFO queues, compaction, bitsets, Base64 encode/decode, sorted list merging, and an explicit protocol state machine. All 30 companion C programs passed strict -std=c17 compilation, deterministic shell test assertions, -fanalyzer static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer executions. The next scheduled topic is Russian 058: expressing wishes and future ambitions with `хотелось бы`.

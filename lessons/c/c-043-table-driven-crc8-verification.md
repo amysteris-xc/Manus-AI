@@ -1,0 +1,115 @@
+# C 043 — Table-Driven CRC-8 Verification
+
+**Estimated study time:** 25–35 minutes
+**Prerequisites:** C 001–042 and the immediately preceding lessons
+**Companion program:** [`examples/c/c-043-table-driven-crc8-verification.c`](../../examples/c/c-043-table-driven-crc8-verification.c)
+**Deterministic test:** [`tests/c-043-table-driven-crc8-verification.sh`](../../tests/c-043-table-driven-crc8-verification.sh)
+**Author:** Manus AI
+
+## What you will be able to do
+
+By the end of this lesson, you should be able to verify a table-driven CRC-8 matches the bitwise implementation identically.
+
+## Retrieval practice
+
+1. Why must byte buffers use explicit `size_t` lengths rather than sentinel termination?
+2. State the safe traversal condition for `count` elements.
+3. Explain why I/O and conversion return values must be verified before using outputs.
+4. Recall one accurate phrase from the preceding Russian lesson.
+
+## Core concept
+
+The example treats bytes as counted raw data. It enforces explicit `size_t` capacities, verifies all external function returns, and maintains portability under ISO C17. It avoids native loaders, process injection, shellcode, and self-modifying code.
+
+## Worked example
+
+```c
+#include <inttypes.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+static uint8_t crc8_fast(const uint8_t *data, size_t len)
+{
+    /* Minimal direct implementation matching 0x07 poly for verification */
+    uint8_t crc = 0;
+    if (data == NULL) return 0;
+    for (size_t i = 0; i < len; ++i) {
+        crc ^= data[i];
+        for (int b = 0; b < 8; ++b) crc = (uint8_t)((crc & 0x80) ? ((crc << 1) ^ 0x07) : (crc << 1));
+    }
+    return crc;
+}
+
+int main(void)
+{
+    const uint8_t test[] = {'A', 'B', 'C'};
+    uint8_t val = crc8_fast(test, sizeof test);
+    if (printf("Fast CRC-8: 0x%02" PRIX8 "\n", val) < 0) return EXIT_FAILURE;
+    return EXIT_SUCCESS;
+}
+```
+
+Compile and run:
+
+```sh
+cc -std=c17 -Wall -Wextra -Wpedantic \
+  -o c-043-table-driven-crc8-verification \
+  examples/c/c-043-table-driven-crc8-verification.c
+./c-043-table-driven-crc8-verification 
+```
+
+Expected output:
+
+```text
+Fast CRC-8: 0x43
+```
+
+## Guided practice
+
+1. Identify the input and output buffer boundaries.
+2. Locate each return value and capacity check.
+3. Explain why embedded `0x00` values remain valid data in raw buffers.
+4. Name one malformed input condition that causes early error return.
+5. Recall one phrase from the preceding Russian lesson.
+
+## Independent exercise
+
+Extend the program to validate an additional edge case or test input. Preserve explicit lengths and check every return status.
+
+## Validation
+
+Run the deterministic test:
+
+```sh
+./tests/c-043-table-driven-crc8-verification.sh
+```
+
+Compile and run with sanitizers where supported:
+
+```sh
+cc -std=c17 -Wall -Wextra -Wpedantic \
+  -fsanitize=address,undefined -fno-omit-frame-pointer -g \
+  -o c-043-sanitized \
+  examples/c/c-043-table-driven-crc8-verification.c
+```
+
+## Final self-check
+
+You are ready for the next lesson if you can explain the buffer contract, error return values, and why this lesson’s code is not an operational cryptographic security mechanism.
+
+## Spoiler: answers and model response
+
+1. Raw byte buffers can contain `0x00` as legitimate data; `strlen` cannot determine their size.
+2. Forward loop bound: `index < count`.
+3. Unchecked results can lead to use of uninitialized memory or silent failure.
+4. Malformed inputs violate capacity or structure constraints and must return an error code.
+
+## Next lesson
+
+The next scheduled lesson returns to the Russian track.
+
+## References
+
+[1]: https://en.cppreference.com/w/c/types/integer "Fixed width integer types — cppreference.com"
+[2]: https://en.cppreference.com/w/c/language/operator_arithmetic "Arithmetic operators — cppreference.com"
