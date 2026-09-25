@@ -12,7 +12,7 @@
 
 ## Current position
 
-C lesson 057 is complete. The next scheduled run must create **Russian lesson 058**. No review or remediation lesson is currently scheduled.
+C lesson 101 is complete. The next scheduled run must create **Russian lesson 102**. No review or remediation lesson is currently scheduled.
 
 | Status | Lesson identifier | Topic | Prerequisites |
 |---|---|---|---|
@@ -130,8 +130,94 @@ C lesson 057 is complete. The next scheduled run must create **Russian lesson 05
 | Completed | `c-056-binary-safe-merge-of-two-sorted-byte-lists` | Binary Safe Merge of Two Sorted Byte Lists | C 001–055 |
 | Completed | `russian-057-comprehensive-review-and-capstone-dialogue` | Comprehensive Review and Capstone Dialogue | Russian 001–056 |
 | Completed | `c-057-comprehensive-byte-stream-state-machine` | Comprehensive Byte-Stream State Machine | C 001–056 |
-| Next | `russian-058-expressing-wishes-and-future-ambitions` | Expressing wishes and future ambitions with `хотелось бы` | Russian 001–057 |
-| Planned after next | `c-058-multi-packet-reassembly-buffers` | Multi-packet reassembly buffers with checked sequence numbers | C 001–057 |
+| Completed | `russian-058-expressing-wishes-and-future-ambitions` | Wishes and Future Ambitions with `хотелось бы` | Russian 001–057 |
+| Completed | `c-058-multi-packet-reassembly-buffers` | Multi-Packet Reassembly Buffers | C 001–057 |
+| Completed | `russian-059-genitive-possession-and-absence` | Possession and Absence with the Genitive | Russian 001–058 |
+| Completed | `c-059-checked-sequence-number-tracking` | Checked Sequence Number Tracking | C 001–058 |
+| Completed | `russian-060-numbers-eleven-to-twenty` | Numbers Eleven to Twenty and Counted Nouns | Russian 001–059 |
+| Completed | `c-060-owned-dynamic-byte-buffer-lifetime` | Owned Dynamic Byte Buffer Lifetime | C 001–059 |
+| Completed | `russian-061-dative-for-recipients-and-needs` | The Dative for Recipients and Needs | Russian 001–060 |
+| Completed | `c-061-memmove-and-overlapping-byte-ranges` | Overlapping Byte Ranges with `memmove` | C 001–060 |
+| Completed | `russian-062-instrumental-with-companions-and-roles` | Instrumental Case with Companions and Roles | Russian 001–061 |
+| Completed | `c-062-sorted-byte-record-search` | Searching Sorted Byte Records | C 001–061 |
+| Completed | `russian-063-prepositional-about-topics` | Talking About Topics with `о` | Russian 001–062 |
+| Completed | `c-063-versioned-binary-header-validation` | Versioned Binary Header Validation | C 001–062 |
+| Completed | `russian-064-verb-aspect-introduction` | An Introduction to Verb Aspect | Russian 001–063 |
+| Completed | `c-064-endianness-dispatch-for-word-fields` | Endian Dispatch for Word Fields | C 001–063 |
+| Completed | `russian-065-habitual-and-one-time-actions` | Habitual and One-Time Actions | Russian 001–064 |
+| Completed | `c-065-calloc-count-size-overflow-checks` | Checked `calloc` Count and Size Arithmetic | C 001–064 |
+| Completed | `russian-066-past-tense-aspect-contrast` | Past Tense: Process and Completed Result | Russian 001–065 |
+| Completed | `c-066-checked-file-offset-and-size-queries` | Checked File Offset and Size Queries | C 001–065 |
+| Completed | `russian-067-future-with-aspect` | Future Meaning and Aspect | Russian 001–066 |
+| Completed | `c-067-write-then-verify-binary-records` | Write Then Verify Binary Records | C 001–066 |
+| Completed | `russian-068-motion-verbs-idti-and-hodit` | Motion Verbs: `идти` and `ходить` | Russian 001–067 |
+| Completed | `c-068-named-status-codes-for-parsers` | Named Status Codes for Parsers | C 001–067 |
+| Completed | `russian-069-motion-verbs-ekhat-and-ezdit` | Motion Verbs: `ехать` and `ездить` | Russian 001–068 |
+| Completed | `c-069-safe-size-t-multiplication` | Safe `size_t` Multiplication | C 001–068 |
+| Completed | `russian-070-prefixed-motion-verbs` | Prefixed Motion Verbs: Arrival and Departure | Russian 001–069 |
+| Completed | `c-070-binary-reader-api-with-cursor` | Binary Reader API with a Cursor | C 001–069 |
+| Completed | `russian-071-comparative-adjectives-luchshe-huzhe` | Comparisons with `лучше` and `хуже` | Russian 001–070 |
+| Completed | `c-071-binary-writer-api-with-cursor` | Binary Writer API with a Cursor | C 001–070 |
+| Completed | `russian-072-superlatives-with-samyi` | Superlatives with `самый` | Russian 001–071 |
+| Completed | `c-072-magic-and-version-negotiation` | Magic and Version Negotiation | C 001–071 |
+| Completed | `russian-073-conditional-with-by` | The Conditional with `бы` | Russian 001–072 |
+| Completed | `c-073-streaming-crc32-integrity-check` | Streaming CRC-32 Integrity Check | C 001–072 |
+| Completed | `russian-074-relative-clauses-with-kotoryi` | Relative Clauses with `который` | Russian 001–073 |
+| Completed | `c-074-fnv1a-toy-hash-and-test-vector` | FNV-1a Educational Hash and Test Vector | C 001–073 |
+| Completed | `russian-075-indirect-questions-with-li` | Indirect Questions with `ли` | Russian 001–074 |
+| Completed | `c-075-toy-hash-avalanche-observation` | Toy Hash Avalanche Observation | C 001–074 |
+| Completed | `russian-076-impersonal-expressions-mozhno-nuzhno` | Impersonal Expressions: `можно`, `нужно`, and `нельзя` | Russian 001–075 |
+| Completed | `c-076-established-library-boundary-design` | Established Library Boundary Design | C 001–075 |
+| Completed | `russian-077-quantity-words-mnogo-malo` | Quantity Words: `много`, `мало`, and `несколько` | Russian 001–076 |
+| Completed | `c-077-byte-format-threat-model-notes` | Byte Format Threat Model Notes | C 001–076 |
+| Completed | `russian-078-ordinal-numbers-and-dates` | Ordinal Numbers and Calendar Dates | Russian 001–077 |
+| Completed | `c-078-constant-time-comparison-review` | Constant-Time Comparison Review | C 001–077 |
+| Completed | `russian-079-making-appointments-and-schedules` | Making Appointments and Schedules | Russian 001–078 |
+| Completed | `c-079-parser-fuzz-seed-corpus` | Parser Fuzz Seed Corpus | C 001–078 |
+| Completed | `russian-080-asking-and-giving-directions-review` | Asking for and Giving Directions | Russian 001–079 |
+| Completed | `c-080-round-trip-property-checks` | Round-Trip Property Checks | C 001–079 |
+| Completed | `russian-081-health-and-pharmacy-basics` | Health and Pharmacy Basics | Russian 001–080 |
+| Completed | `c-081-sanitizer-oriented-boundary-tests` | Sanitizer-Oriented Boundary Tests | C 001–080 |
+| Completed | `russian-082-giving-gentle-advice` | Giving Gentle Advice with `стоит` | Russian 001–081 |
+| Completed | `c-082-static-analysis-oriented-error-paths` | Static Analysis Error Paths | C 001–081 |
+| Completed | `russian-083-feelings-and-reactions` | Feelings and Reactions | Russian 001–082 |
+| Completed | `c-083-portable-file-hygiene-and-cleanup` | Portable File Hygiene and Cleanup | C 001–082 |
+| Completed | `russian-084-invitations-and-responses` | Invitations and Responses | Russian 001–083 |
+| Completed | `c-084-safe-hex-rendering-for-byte-buffers` | Safe Hex Rendering for Byte Buffers | C 001–083 |
+| Completed | `russian-085-formal-requests-and-polite-register` | Formal Requests and Polite Register | Russian 001–084 |
+| Completed | `c-085-text-encoding-and-byte-boundaries-review` | Text Encoding and Byte Boundaries Review | C 001–084 |
+| Completed | `russian-086-short-messages-and-rsvp` | Short Messages and RSVP | Russian 001–085 |
+| Completed | `c-086-checksums-versus-authentication` | Checksums Versus Authentication | C 001–085 |
+| Completed | `russian-087-service-encounters-review` | Service Encounters Review | Russian 001–086 |
+| Completed | `c-087-cryptographic-library-selection-checklist` | Cryptographic Library Selection Checklist | C 001–086 |
+| Completed | `russian-088-workplace-introductions-and-meetings` | Workplace Introductions and Meetings | Russian 001–087 |
+| Completed | `c-088-key-material-interface-restrictions` | Key Material Interface Restrictions | C 001–087 |
+| Completed | `russian-089-discussing-learning-progress` | Discussing Learning Progress | Russian 001–088 |
+| Completed | `c-089-nested-frame-parser-limits` | Nested Frame Parser Limits | C 001–088 |
+| Completed | `russian-090-reading-simple-notices-and-forms` | Reading Simple Notices and Forms | Russian 001–089 |
+| Completed | `c-090-replay-sequence-window` | Replay Sequence Window | C 001–089 |
+| Completed | `russian-091-media-and-news-routines` | Media and News Routines | Russian 001–090 |
+| Completed | `c-091-input-limit-configuration` | Input Limit Configuration | C 001–090 |
+| Completed | `russian-092-returns-and-exchanges-in-shops` | Returns and Exchanges in Shops | Russian 001–091 |
+| Completed | `c-092-sensitive-byte-lifecycle-notes` | Sensitive Byte Lifecycle Notes | C 001–091 |
+| Completed | `russian-093-uncertainty-and-probability` | Uncertainty and Probability | Russian 001–092 |
+| Completed | `c-093-recoverable-parser-state-machine` | Recoverable Parser State Machine | C 001–092 |
+| Completed | `russian-094-conditions-with-esli` | Conditions with `если` | Russian 001–093 |
+| Completed | `c-094-malformed-input-regression-corpus` | Malformed Input Regression Corpus | C 001–093 |
+| Completed | `russian-095-contrast-with-khotya` | Contrast with `хотя` | Russian 001–094 |
+| Completed | `c-095-cross-platform-serialization-contracts` | Cross-Platform Serialization Contracts | C 001–094 |
+| Completed | `russian-096-cohesive-paragraph-connectors` | Cohesive Paragraph Connectors | Russian 001–095 |
+| Completed | `c-096-record-reader-writer-round-trip` | Record Reader and Writer Round Trip | C 001–095 |
+| Completed | `russian-097-narrating-a-simple-trip` | Narrating a Simple Trip | Russian 001–096 |
+| Completed | `c-097-binary-log-inspection-format` | Binary Log Inspection Format | C 001–096 |
+| Completed | `russian-098-planning-a-small-project` | Planning a Small Project | Russian 001–097 |
+| Completed | `c-098-text-and-byte-boundary-capstone` | Text and Byte Boundary Capstone | C 001–097 |
+| Completed | `russian-099-opinions-with-evidence` | Opinions with Reasons and Evidence | Russian 001–098 |
+| Completed | `c-099-defensive-code-review-checklist` | Defensive Code Review Checklist | C 001–098 |
+| Completed | `russian-100-integrated-grammar-review` | Integrated Grammar Review | Russian 001–099 |
+| Completed | `c-100-production-crypto-library-integration-notes` | Production Crypto Library Integration Notes | C 001–099 |
+| Completed | `russian-101-capstone-dialogue-and-study-log` | Capstone Dialogue and Study Log | Russian 001–100 |
+| Completed | `c-101-byte-protocol-validation-capstone` | Byte Protocol Validation Capstone | C 001–100 |
 
 ## Long-range C milestones
 
@@ -167,3 +253,5 @@ C lesson 057 is complete. The next scheduled run must create **Russian lesson 05
 - **2026-09-25 — Expanded batch completed (Russian 018–027 and C 018–027).** The Russian track added directions, controlled destinations, numbers, people vocabulary, weather, simple requests, days, comparisons, politeness, and a cumulative fictional conversation. The C track added checked record writing, append output, counted byte copy and equality, overflow-aware `uint32_t` arithmetic, histograms, length prefixes, frame decoding, streaming processing, and a clearly insecure toy mix with a fixed vector. All ten C examples passed strict C17 compilation, deterministic tests, static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. No learner feedback was available. The next topic is Russian 028: likes, dislikes, and basic preferences.
 
 - **2026-09-25 — Batch expansion completed (Russian 028–057 and C 028–057).** The Russian track advanced from basic preferences through shopping, adverbs of frequency, imperatives, languages, spatial relations, occupations, reasoning, body parts, opinions, weather nuances, messages, sports, household rooms, clothing, travel, cafes, clarifications, future plans, formal etiquette, idioms, and an integrated capstone dialogue. The C track covered structured text parsing, hexadecimal decoding, byte reversing, substring matching, run-length decoding, TLV validation, sliding windows, ring buffers, prefix slices, varint encoding/decoding, parity, popcount, XOR masks, CRC-8 (bit-by-bit and table), deduplication, TLV frames, big-endian 64-bit integer conversions, constant-time equality, toy sponge mixing, FIFO queues, compaction, bitsets, Base64 encode/decode, sorted list merging, and an explicit protocol state machine. All 30 companion C programs passed strict -std=c17 compilation, deterministic shell test assertions, -fanalyzer static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer executions. The next scheduled topic is Russian 058: expressing wishes and future ambitions with `хотелось бы`.
+
+- **2026-09-25 — Batch expansion completed (Russian 058–101 and C 058–101).** The Russian track advanced through possession, numbers, the dative and instrumental cases, topic phrases, aspect, motion verbs, conditionals, relative and indirect questions, impersonal expressions, appointments, service encounters, reading notices, cautious opinions, cohesion, narrative, planning, and an integrated capstone dialogue plus study log. The C track advanced through bounded reassembly, sequence tracking, ownership and allocation arithmetic, record APIs, safe file I/O, parser status handling, explicit endianness, non-cryptographic CRC and toy-hash literacy, library-boundary design, threat modeling, fuzz seeds, round-trip tests, sanitizers, static-analysis-ready error paths, protocol limits, and defensive parsing capstones. All 44 C companion programs passed strict C17 compilation, deterministic tests, GCC static analysis, and AddressSanitizer/UndefinedBehaviorSanitizer execution. The next scheduled topic is Russian 102.
