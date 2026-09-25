@@ -10,9 +10,8 @@ cleanup() { rm -f "$binary" "$out_file" "$expected_file"; rm -rf "$work_dir"; }
 trap cleanup EXIT HUP INT TERM
 cc -std=c17 -Wall -Wextra -Wpedantic -o "$binary" "$source_file"
 cd "$work_dir"
-"$binary"  > "$out_file"
-printf '%s' 'Fast CRC-8: 0x43
-' > "$expected_file"
+"$binary" > "$out_file"
+printf '%s\n' 'Fast CRC-8: 0x52' > "$expected_file"
 diff -u "$expected_file" "$out_file"
 
 printf '%s\n' 'c-043-table-driven-crc8-verification: PASS'

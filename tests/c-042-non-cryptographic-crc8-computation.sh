@@ -10,9 +10,8 @@ cleanup() { rm -f "$binary" "$out_file" "$expected_file"; rm -rf "$work_dir"; }
 trap cleanup EXIT HUP INT TERM
 cc -std=c17 -Wall -Wextra -Wpedantic -o "$binary" "$source_file"
 cd "$work_dir"
-"$binary"  > "$out_file"
-printf '%s' 'CRC-8: 0xBC
-' > "$expected_file"
+"$binary" > "$out_file"
+printf '%s\n' 'CRC-8: 0xCB' > "$expected_file"
 diff -u "$expected_file" "$out_file"
 
 printf '%s\n' 'c-042-non-cryptographic-crc8-computation: PASS'
